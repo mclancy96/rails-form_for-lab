@@ -1,0 +1,25 @@
+---
+EnableDefaultLinters: true
+linters:
+  ErbSafety:
+    enabled: false
+  Rubocop:
+    enabled: false
+  ClosingErbTagIndent:
+    enabled: true
+  HtmlToErbLinter:
+    enabled: true
+  NoJavascriptTagHelper:
+    enabled: false
+  ParserErrors:
+    enabled: true
+  RightTrim:
+    enabled: true
+  SelfClosingTag:
+    enabled: true
+  SpaceInHtmlTag:
+    enabled: true
+  SpaceIndentation:
+    enabled: true
+  TrailingWhitespace:
+    enabled: true
