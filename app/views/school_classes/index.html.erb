@@ -1,6 +1,6 @@
 <h1>School Classes</h1>
 <% @school_classes.each do |school_class|%>
   <div>
-    <%= school_class.to_s %>
+    <%= "#{school_class.title} - Room: #{school_class.room_number}" %>
   </div>
 <% end %>
